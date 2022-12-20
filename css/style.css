@@ -1,0 +1,79 @@
+
+body{
+   font-family: 'Segoe UI', sans-serif;
+   background-color: #C3B9B5;
+   font-size: 1.1em;
+   padding: 20px;
+}
+h1{
+   margin-bottom: 30px;
+}
+.text{
+   margin-bottom: 40px;
+}
+p{
+   max-width: 700px;
+}
+p:not(:last-child){
+   margin-bottom: 20px;
+}
+.page {
+   display: inline-block;
+   background-color: #6C4427;
+   color: white;
+   max-width: 100px;
+   text-align: center;
+   text-decoration: none;
+   font-weight: 700;
+   padding: 7px;
+   border-radius: 10px;
+   margin-bottom: 40px;
+   font-size: 0.95em;
+}
+.page:hover{
+   background-color: #784d2e;
+
+}
+.page:active{
+   transform: translate(0px, 2px);
+   box-shadow: 0px 2px 0px #4d3626;
+}
+.page:visited{
+   color: black;
+}
+.address {
+   margin-top: 20px;
+   background-color: #3E0F1B;
+   max-width: 74%;
+   min-height: 20px;
+   font-weight: 600;
+   color: #C3B9B5;
+   text-align: center;
+}
+.home-picture{
+   max-width: 74%;
+}
+.title {
+   background-color: #3E0F1B;
+   color: #C3B9B5;
+   max-width: 74%;
+   text-align: center;
+}
+.drinks {
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.food {
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.table-title {
+   background-color: #6C4427;
+   color: #C3B9B5;
+}
+.menu-picture {
+   width: 25%;
+}
+
+
